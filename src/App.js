@@ -5,6 +5,7 @@ import Contact from './Pages/Contact'
 import Servics from './Pages/Servics'
 import MyContextProvider from './contsxt/MyContextProvider'
 import CustomePage from './Pages/CustomePage'
+import ErrorPage from './Pages/ErrorPage'
 
 const App = () => {
 
@@ -16,6 +17,8 @@ const App = () => {
       <Contact/>
       <Servics/>
       <CustomePage/>
+      <ErrorPage/>
+
 
       </MyContextProvider>
      
