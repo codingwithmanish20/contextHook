@@ -4,6 +4,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Servics from './Pages/Servics'
 import MyContextProvider from './contsxt/MyContextProvider'
+import CustomePage from './Pages/CustomePage'
 
 const App = () => {
 
@@ -14,6 +15,8 @@ const App = () => {
       <About />
       <Contact/>
       <Servics/>
+      <CustomePage/>
+
       </MyContextProvider>
      
     </div>
