@@ -5,7 +5,7 @@ const CustomePage = () => {
     const {customePage} = useContext(MyContext)
   return (
     <div>
-      <h1>{customePage}</h1>
+      <h6>{customePage}</h6>
     </div>
   )
 }

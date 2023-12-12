@@ -5,7 +5,7 @@ const Contact = () => {
   const {contactPage} = useContext(MyContext)  
   return (
     <div>
-      <h1>{contactPage}</h1>
+      <h6>{contactPage}</h6>
     </div>
   )
 }

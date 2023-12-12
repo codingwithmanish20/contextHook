@@ -8,8 +8,8 @@ const Homes = () => {
 
   return (
     <div>
-      <h1>{contextValue}</h1>
-      <h1>{contextText}</h1>
+      <h6>{contextValue}</h6>
+      <h6>{contextText}</h6>
       <button onClick={logOut} >LogOut</button>
     </div>
   );

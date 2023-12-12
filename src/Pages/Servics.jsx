@@ -5,7 +5,7 @@ const Servics = () => {
     const {servicepage} = useContext(MyContext)
   return (
     <div>
-      <h1>{servicepage}</h1>
+      <h6>{servicepage}</h6>
     </div>
   )
 }
